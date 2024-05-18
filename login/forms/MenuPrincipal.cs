@@ -21,7 +21,7 @@ namespace login.forms
 
         private void AbrirMaterias(object sender, EventArgs e)
         {
-            materiaform materiaform = new materiaform();
+            MateriaForms materiaform = new MateriaForms();
             materiaform.Show();
         }
 
@@ -31,17 +31,17 @@ namespace login.forms
         }
 
         private void AbrirDepartamentos(object sender, EventArgs e) {
-            Departamentoforms Departamentosform = new Departamentoforms();
+            DepartamentoForms Departamentosform = new DepartamentoForms();
             Departamentosform.Show();
         }
 
         private void AbrirEstudiantes(object sender, EventArgs e) {
-            Estudianteforms Estudianteforms = new Estudianteforms();
+            EstudianteForms Estudianteforms = new EstudianteForms();
             Estudianteforms.Show();
         }
 
         private void AbrirCarreras(object sender, EventArgs e) {
-            Carreraforms Carreraforms = new Carreraforms();
+            CarreraForms Carreraforms = new CarreraForms();
             Carreraforms.Show();
         }
     }

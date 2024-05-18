@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace login.models
 {
-    internal class Materia
+    public class Materia
     {
         public string cod_materia;
         public string nomb_materia;

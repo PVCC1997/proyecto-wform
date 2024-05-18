@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace login.services
 {
-    internal class MateriaService
+    public class MateriaService
     {
         public List<Materia> GetMaterias()
         {

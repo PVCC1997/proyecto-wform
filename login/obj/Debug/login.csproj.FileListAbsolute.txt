@@ -20,5 +20,9 @@ C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Deb
 C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.csproj.CoreCompileInputs.cache
 C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.exe
 C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.pdb
-C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.forms.materiaform.resources
 C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.forms.Menu_principal.resources
+C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.forms.DepartamentoForms.resources
+C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.forms.EstudianteForms.resources
+C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.forms.MateriaForms.resources
+C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.forms.Profesoresform.resources
+C:\Users\MINEDUCYT\Downloads\wform-login-master\wform-login-master\login\obj\Debug\login.forms.CarreraForms.resources

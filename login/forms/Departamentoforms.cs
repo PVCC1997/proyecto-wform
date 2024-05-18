@@ -1,4 +1,5 @@
-﻿using System;
+﻿using login.services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,11 +11,18 @@ using System.Windows.Forms;
 
 namespace login.forms
 {
-    public partial class Departamentoforms : Form
+    public partial class DepartamentoForms : Form
     {
-        public Departamentoforms()
+        private DepartamentoService departamentoService = new DepartamentoService();
+        public DepartamentoForms()
         {
             InitializeComponent();
+            FillDepartamentos();
+        }
+
+        private void FillDepartamentos()
+        {
+            departamentoService.GetDepartamentos().ForEach((e) => dataGridView1.Rows.Add(e.cod_depto, e.nomb_depto));
         }
     }
 }

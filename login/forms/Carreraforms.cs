@@ -7,14 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using login.services;
 
 namespace login.forms
 {
-    public partial class Carreraforms : Form
+    public partial class CarreraForms : Form
     {
-        public Carreraforms()
+        private CarreraService _carreraService = new CarreraService();
+        public CarreraForms()
         {
             InitializeComponent();
+            FillCarreras();
+        }
+
+        private void FillCarreras()
+        {
+            _carreraService.GetCarreras().ForEach((e) => dataGridView1.Rows.Add(e.cod_carrera, e.nomb_carrera, e.cod_depto));
         }
     }
 }
